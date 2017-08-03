@@ -21,13 +21,6 @@ public class Attraction implements Serializable {
         mImageId = image;
     }
 
-    public Attraction(int id, String name, String longDesc, int image) {
-        this.mId = id;
-        this.mName = name;
-        this.mLongDescription = longDesc;
-        mImageId = image;
-    }
-
     public int getId() {
         return mId;
     }
@@ -48,23 +41,11 @@ public class Attraction implements Serializable {
         return mShortDescription;
     }
 
-    public void setShortDescription(String mShortDescription) {
-        this.mShortDescription = mShortDescription;
-    }
-
     public String getLongDescription() {
         return mLongDescription;
     }
 
-    public void setLongDescription(String mLongDescription) {
-        this.mLongDescription = mLongDescription;
-    }
-
     public int getImageId() {
         return mImageId;
-    }
-
-    public void setImageId(int mImageId) {
-        this.mImageId = mImageId;
     }
 }

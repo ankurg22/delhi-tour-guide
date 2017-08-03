@@ -21,10 +21,6 @@ public class Shop implements Serializable {
         return mImageId;
     }
 
-    public void setImageId(int mImageId) {
-        this.mImageId = mImageId;
-    }
-
     public String getName() {
         return mName;
     }
@@ -35,9 +31,5 @@ public class Shop implements Serializable {
 
     public String getDetail() {
         return mDetail;
-    }
-
-    public void setDetail(String mDetail) {
-        this.mDetail = mDetail;
     }
 }

@@ -47,47 +47,23 @@ public class Activities implements Serializable {
         return mImageId;
     }
 
-    public void setImageId(int mImageId) {
-        this.mImageId = mImageId;
-    }
-
     public String getWhat() {
         return mWhat;
-    }
-
-    public void setWhat(String mWhat) {
-        this.mWhat = mWhat;
     }
 
     public String getWhen() {
         return mWhen;
     }
 
-    public void setWhen(String mWhen) {
-        this.mWhen = mWhen;
-    }
-
     public String getWhere() {
         return mWhere;
-    }
-
-    public void setWhere(String mWhere) {
-        this.mWhere = mWhere;
     }
 
     public String getHowMuch() {
         return mHowMuch;
     }
 
-    public void setHowMuch(String mHowMuch) {
-        this.mHowMuch = mHowMuch;
-    }
-
     public int getColorId() {
         return mColorId;
-    }
-
-    public void setColorId(int mColorId) {
-        this.mColorId = mColorId;
     }
 }

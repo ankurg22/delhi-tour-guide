@@ -29,15 +29,7 @@ public class Eat implements Serializable {
         return mWhere;
     }
 
-    public void setWhere(String mWhere) {
-        this.mWhere = mWhere;
-    }
-
     public int getImage() {
         return mImage;
-    }
-
-    public void setImage(int mImage) {
-        this.mImage = mImage;
     }
 }
