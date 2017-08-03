@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#191B30</color>
+    <color name="colorPrimaryDark">#191B30</color>
+    <color name="colorAccent">#ffffff</color>
+    <color name="test">#f9a825</color>
+    <color name="background">#043D50</color>
+
+    <!--Activity item overlay colors-->
+    <color name="one">#f8d97c</color>
+    <color name="two">#fdc36f</color>
+    <color name="three">#41b7b7</color>
+    <color name="four">#3b8aab</color>
+    <color name="five">#dd2476</color>
+    <color name="six">#dbd4b4</color>
+    <color name="seven">#3ca55c</color>
+</resources>

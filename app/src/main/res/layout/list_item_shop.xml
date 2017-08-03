@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="shop"
+            type="com.example.android.delhitour.model.Shop" />
+    </data>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/shop_item_height"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center_vertical"
+        android:text="@{shop.name}"
+        android:textColor="@color/colorAccent" />
+
+</layout>

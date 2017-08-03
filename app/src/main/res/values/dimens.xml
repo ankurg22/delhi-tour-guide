@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="toolbar_height">48dp</dimen>
+    <dimen name="toolbar_text_size">20sp</dimen>
+    <dimen name="image_act_details_height">150dp</dimen>
+    <dimen name="padding_act_details">10dp</dimen>
+    <dimen name="attraction_details_image_height">200dp</dimen>
+    <dimen name="fragment_padding">16dp</dimen>
+    <dimen name="activities_item_image_height">180dp</dimen>
+    <dimen name="attaction_item_height">130dp</dimen>
+    <dimen name="card_radius">4dp</dimen>
+    <dimen name="attraction_item_image_height">150dp</dimen>
+    <dimen name="eat_item_height">64dp</dimen>
+    <dimen name="eat_text_padding">4dp</dimen>
+    <dimen name="shop_item_height">48dp</dimen>
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.delhitour.actitvity.AttractionDetailsActivity">
+
+    <data>
+
+        <variable
+            name="attraction"
+            type="com.example.android.delhitour.model.Attraction" />
+    </data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/image_list_attraction"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/attraction_details_image_height"
+                android:scaleType="centerCrop"
+                android:src="@{attraction.imageId}"
+                android:transitionName="attraction_image" />
+
+            <TextView
+                android:id="@+id/text_list_attraction"
+                style="@style/DetailTextTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@{attraction.name}"
+                android:transitionName="attraction_text" />
+
+            <TextView
+                style="@style/DetailTextHeader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/description" />
+
+            <TextView
+                style="@style/DetailTextContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@{attraction.longDescription}" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</layout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <variable
+            name="activity"
+            type="com.example.android.delhitour.model.Activities" />
+    </data>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:foreground="?android:attr/selectableItemBackground">
+
+        <ImageView
+            android:id="@+id/image_list_activities"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/activities_item_image_height"
+            android:scaleType="centerCrop"
+            android:src="@{activity.imageId}"
+            android:transitionName="image" />
+
+        <TextView
+            android:id="@+id/text_activities_title"
+            style="@style/ActivitiesItemTitle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@{activity.colorId}"
+            android:text="@{activity.name}" />
+    </FrameLayout>
+
+</layout>

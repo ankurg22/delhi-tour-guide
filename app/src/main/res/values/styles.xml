@@ -1,0 +1,67 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+    <style name="DetailTextTitle">
+        <item name="android:textAppearance">?android:textAppearanceLarge</item>
+        <item name="android:padding">@dimen/detail_text_title_padding</item>
+        <item name="android:fontFamily">sans-serif-smallcaps</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="DetailTextHeader">
+        <item name="android:gravity">center</item>
+        <item name="android:background">@color/background</item>
+        <item name="android:padding">@dimen/detail_text_header_padding</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:layout_marginTop">@dimen/margin_top</item>
+    </style>
+
+    <style name="DetailTextContent">
+        <item name="android:padding">@dimen/detail_text_title_padding</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="DetailActivityTextContent">
+        <item name="android:padding">@dimen/detail_text_header_padding</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="MapsButton">
+        <item name="android:background">@android:color/white</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="ActivitiesItemTitle">
+        <item name="android:fontFamily">sans-serif-smallcaps</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAppearance">?android:textAppearanceLargeInverse</item>
+    </style>
+
+    <style name="AttractionItemTitle">
+        <item name="android:fontFamily">sans-serif-smallcaps</item>
+        <item name="android:gravity">bottom</item>
+        <item name="android:textAppearance">?android:textAppearanceLarge</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AttractionItemContent">
+        <item name="android:gravity">top</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+    </style>
+
+    <dimen name="detail_text_title_padding">10dp</dimen>
+    <dimen name="detail_text_header_padding">5dp</dimen>
+    <dimen name="margin_top">8dp</dimen>
+</resources>

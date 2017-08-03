@@ -1,0 +1,247 @@
+<resources>
+    <string name="app_name">Delhi Tour</string>
+
+    <!--Tab Layout-->
+    <string name="attraction">Attractions</string>
+    <string name="shop">Shop</string>
+    <string name="activity">Activities</string>
+
+    <string name="book">Book tickets</string>
+    <string name="what">What?</string>
+    <string name="when">When?</string>
+    <string name="where">Where?</string>
+    <string name="maps">Open in maps</string>
+    <string name="how_much">How Much?</string>
+    <string name="description">Description</string>
+    <string name="eat">Eat</string>
+    <string name="act_details">Activtiy Details</string>
+    <string name="attr_details">Attraction Details</string>
+
+    <!--Attractions-->
+    <string-array name="attraction_name">
+        <item>The Red Fort</item>
+        <item>Qutub Minar</item>
+        <item>Humayun\'s Tomb</item>
+        <item>India Gate</item>
+        <item>Jama Masjid</item>
+        <item>Lotus Temple</item>
+        <item>Akshardham</item>
+        <item>Old Fort</item>
+        <item>Lodhi Garden</item>
+        <item>Jantar Mantar</item>
+    </string-array>
+    <string-array name="attraction_description_short">
+        <item>Iconic 1600s imperial residence and museum</item>
+        <item>5-storey victory tower with balconies</item>
+        <item>Palatial 16th-century tomb of Humayun</item>
+        <item>1920s triumphal arch and war memorial</item>
+        <item>Vast, 17th-century Mughal-style mosque</item>
+        <item>Temple with a flower-like design</item>
+        <item>Modern temple celebrating Indian arts</item>
+        <item>Riverside fortress with Mugal-era gates</item>
+        <item>80-acre city park inaugurated in 1936</item>
+        <item>18th-century astronomy complex</item>
+    </string-array>
+
+    <string-array name="attraction_description_long">
+        <item>
+            The Red Fort is a historical fort in the city of Delhi in India. It was the main residence of the emperors of the Mughal dynasty for nearly 200 years, until 1857. It is located in the center of Delhi and houses a number of museums. In addition to accommodating the emperors and their households, it was the ceremonial and political centre of the Mughal state and the setting for events critically impacting the region.\n\n
+Constructed in 1639 by the fifth Mughal Emperor Shah Jahan as the palace of his fortified capital Shahjahanabad, the Red Fort is named for its massive enclosing walls of red sandstone and is adjacent to the older Salimgarh Fort, built by Islam Shah Suri in 1546. The imperial apartments consist of a row of pavilions, connected by a water channel known as the Stream of Paradise (Nahr-i-Bihisht). The fort complex is considered to represent the zenith of Mughal creativity under Shah Jahan, and although the palace was planned according to Islamic prototypes, each pavilion contains architectural elements typical of Mughal buildings that reflect a fusion of Timurid and Persian traditions. The Red Fort’s innovative architectural style, including its garden design, influenced later buildings and gardens in Delhi, Rajasthan, Punjab, Kashmir, Braj, Rohilkhand and elsewhere.
+        </item>
+        <item>
+            Qutub Minar is a minaret that forms part of the Qutb complex, a UNESCO World Heritage Site in the Mehrauli area of Delhi, India. Made of red sandstone and marble, Qutub Minar is a 73-metre (240 feet) tall tapering tower of five storeys, with a 14.3 metre (47 feet) base diameter, reducing to 2.7 metres (9 feet) at the peak. It contains a spiral staircase of 379 steps. Its design is thought to have been based on the Minaret of Jam, in western Afghanistan.\n\n
+Qutb al-Din Aibak, founder of the Delhi Sultanate, started construction of the Qutub Minar\'s first storey around 1192. In 1220, Aibak\'s successor and son-in-law Iltutmish completed a further three storeys. In 1369, a lightning strike destroyed the top storey. Firoz Shah Tughlaq replaced the damaged storey, and added one more.
+        </item>
+        <item>
+            Humayun\'s tomb (Maqbara e Humayun) is the tomb of the Mughal Emperor Humayun in Delhi, India. The tomb was commissioned by Humayun\'s first wife and chief consort, Empress Bega Begum (also known as Haji Begum), in 1569&#8211;70, and designed by Mirak Mirza Ghiyas, a Persian architect chosen by her. It was the first garden&#8211;tomb on the Indian subcontinent, and is located in Nizamuddin East, Delhi, India, close to the Dina&#8211;panah Citadel, also known as Purana Qila (Old Fort), that Humayun founded in 1533. It was also the first structure to use red sandstone at such a scale. The tomb was declared a UNESCO World Heritage Site in 1993, and since then has undergone extensive restoration work, which is complete. Besides the main tomb enclosure of Humayun, several smaller monuments dot the pathway leading up to it, from the main entrance in the West, including one that even pre&#8211;dates the main tomb itself, by twenty years; it is the tomb complex of Isa Khan Niyazi, an Afghan noble in Sher Shah Suri\'s court of the Suri dynasty, who fought against the Mughals, constructed in 1547 CE.
+        </item>
+        <item>
+            The India Gate, (originally called the All India War Memorial), is a war memorial located astride the Rajpath, on the eastern edge of the ‘ceremonial axis’ of New Delhi, India, formerly called Kingsway. India Gate is a memorial to 82,000 soldiers of the Indian Army who died in the period 1914–21 in the First World War, in France, Flanders, Mesopotamia, Persia, East Africa, Gallipoli and elsewhere in the Near and the Far East, and the Third Anglo Afghan War. 13,300 servicemen\'s names, including some soldiers and officers from the United Kingdom, are inscribed on the gate. The India Gate, even though a war memorial, evokes the architectural style of the triumphal arch like the Arch of Constantine, outside the Colosseum in Rome, and is often compared to the Arc de Triomphe in Paris, and the Gateway of India in Mumbai. It was designed by Sir Edwin Lutyens.
+        </item>
+        <item>
+            The Masjid-i Jahān-Numā (World-reflecting Mosque), commonly known as the Jama Masjid of Delhi, is one of the largest mosques in India.\n\n
+It was built by Mughal emperor Shah Jahan between 1644 and 1656 at a cost of 1 million rupees, and was inaugurated by an imam from Bukhara, present-day Uzbekistan. The mosque was completed in 1656 AD with three great gates, four towers and two 40 m high minarets constructed of strips of red sandstone and white marble. The courtyard can accommodate more than 25,000 persons. There are three domes on the terrace which are surrounded by the two minarets. On the floor, a total of 899 black borders are marked for worshippers. The architectural plan of Badshahi Masjid, built by Shah Jahan\'s son Aurangzeb at Lahore, Pakistan, is similar to the Jama Masjid, Delhi.
+        </item>
+        <item>
+            The Lotus Temple, located in Delhi, India, is a Bahá\'í House of Worship completed in 1986. Notable for its flowerlike shape, it has become a prominent attraction in the city. Like all Bahá\'í Houses of Worship, the Lotus Temple is open to all, regardless of religion or any other qualification. The building is composed of 27 free-standing marble-clad "petals" arranged in clusters of three to form nine sides, with nine doors opening onto a central hall with height of slightly over 40 metres and a capacity of 2,500 people. The Lotus Temple has won numerous architectural awards and been featured in hundreds of newspaper and magazine articles. A 2001 CNN report referred to it as the most visited building in the world.
+        </item>
+        <item>
+            Akshardham or Swaminarayan Akshardham complex is a Hindu mandir, and a spiritual-cultural campus in New Delhi, India. Also referred to as Akshardham Temple or Swaminarayan Akshardham, the complex displays millennia of traditional Hindu and Indian culture, spirituality, and architecture.\n\n
+The temple, which attracts approximately 70 percent of all tourists who visit Delhi, was officially opened on 6 November 2005 by Dr. A.P.J. Abdul Kalam. It sits near the banks of the Yamuna adjacent to the 2010 Commonwealth Games village in eastern New Delhi. The temple, at the centre of the complex, was built according to the Vastu shastra and Pancharatra shastra.
+        </item>
+        <item>
+            Purana Qila (Old Fort) is one of the oldest forts in Delhi. Its current form was built by Sher Shah Suri, the founder of the Sur Empire. Sher Shah raised the citadel of Purana Qila with an extensive city-area sprawling around it. It is believed that the Purana Qila was still incomplete at Sher Shah\'s death in 1545, and was perhaps completed by his son Islam Shah, although it is not certain which parts were built by whom.\n\n
+Excavations carried out by Archaeological Survey of India (ASI) at Purana Quila in 1954-55 (trial trenches) and again 1969-1973 by its Director, B B Lal, have unearthed Painted Grey Ware dating to 1000 BCE.
+        </item>
+        <item>
+            Lodi Gardens or Lodhi Gardens is a city park situated in New Delhi, India. Spread over 90 acres (360,000 m2), it contains, Mohammed Shah\'s Tomb, Tomb of Sikandar Lodi, Shisha Gumbad and Bara Gumbad, architectural works of the 15th century by Lodis- who ruled parts of northern India and Punjab and Khyber Pakhtunkhwa province of modern-day Pakistan, from 1451 to 1526. The site is now protected by the Archaeological Survey of India (ASI).\n\n
+The gardens are situated between Khan Market and Safdarjung\'s Tomb on Lodhi Road and is a hotspot for morning walks for the Delhiites.
+        </item>
+        <item>
+            Jantar Mantar is located in the modern city of New Delhi. It consists of 13 architectural astronomy instruments. The site is one of five built by Maharaja Jai Singh II of Jaipur, from 1723 onwards, as he was given by Mughal emperor Muhammad Shah the task of revising the calendar and astronomical tables. There is a plaque fixed on one of the structures in the Jantar Mantar observatory in New Delhi that was placed there in 1910 mistakenly dating the construction of the complex to the year 1710. Later research, though, suggests 1724 as the actual year of construction.\n\n
+The primary purpose of the observatory was to compile astronomical tables, and to predict the times and movements of the sun, moon and planets. Some of these purposes nowadays would be classified as astronomy.
+        </item>
+    </string-array>
+
+    <!--Activities-->
+    <string-array name="activities_name">
+        <item>Para Motoring</item>
+        <item>Go Karting</item>
+        <item>Segway Tour</item>
+        <item>Camping</item>
+        <item>Gaming Vegas</item>
+        <item>Ice Skating</item>
+        <item>Trekking</item>
+    </string-array>
+
+    <string-array name="activities_what">
+        <item>
+            &#8226; Enjoy a session of paramotoring which lets you fly in the sky like a bird with the help of a paramotor.\n
+            &#8226; Get magnificent views of the surroundings from a height as you get clicked by a professional.\n
+            &#8226; You can also enjoy other activities like Burma Bridge and Pool Table along with cake cutting
+        </item>
+        <item>
+            &#8226; A pool table is also present in the premises.\n
+            &#8226; All participants are given a 5 minute briefing before entering the circuit.\n
+            &#8226; Free wi-fi.\n
+            &#8226; One-of-a-kind indoor circuit.\n
+            &#8226; Shoe racks and lockers are available for the customers.\n
+            &#8226; Sky Karting offers a world-class racing track by a Spain and Germany based firm Protex Karting.\n
+            &#8226; The go-karting circuit has a brew-pub right below it.\n
+        </item>
+        <item>
+            &#8226; A unique mode of exploring historic buildings, monuments and memorials.\n
+            &#8226; Safety gear and trained instructors.\n
+        </item>
+        <item>
+            &#8226; Enjoy a fun-filled camping session with various games and activities for 8 hours in Gurgaon.\n
+            &#8226; The camp is ideal for those who want to spend a delightful time with a group of friends or family.\n
+            &#8226; This 8 hour camp also includes lunch and evening tea with snacks.\n
+        </item>
+        <item>
+            &#8226; Bowling Shoes and Socks are compulsory on the lanes. Shoe Rental: Rs.30/Per Game, Socks: Rs.40 to be paid directly to the merchant.\n
+            &#8226; Play the game of bowling in a UV light experience.\n
+            &#8226; Play the game on amazing UV lit Michael Jackson, Marilyn Monroe, Elvis Presley and Evil Knievel bowling lanes.\n
+        </item>
+        <item>
+            &#8226; GA safety guidelines and training session takes place before each round of skating.\n
+            &#8226; A souvenir shop for photographs, T-shirts, etc. is available.\n
+            &#8226; Children are provided warm clothing if they feel too cold.\n
+            &#8226; Lockers and changing room facilities are available.\n
+            &#8226; Professional guides are available at all times.\n
+            &#8226; Professional medical assistance is available at all times.\n
+            &#8226; Socks are on sale in case one feels too cold.\n
+            &#8226; The key attractions are a natural ice rink, an in-house DJ, sound and light audio systems.\n
+            &#8226; There is a fully operational bar and food station available.\n
+            &#8226; iSKATE is India\'s first natural ice skating rink and café.\n
+        </item>
+        <item>
+            &#8226; Enjoy the scenic beauty of the place while doing this activity.\n
+            &#8226; Enjoy this adventure with your family and friends along with a expert guide.\n
+            &#8226; Relax after a tiring day in the tents provided by the company.\n
+        </item>
+    </string-array>
+
+    <string-array name="activities_when">
+        <item>All Days, From 05:30AM</item>
+        <item>Monday to Friday, 12:00PM to 11:00PM</item>
+        <item>All Days, From 05:15AM</item>
+        <item>All Days, From 10:00AM</item>
+        <item>All Days, 11:00AM to 09:00PM</item>
+        <item>All Days, 10:00AM to 09:00PM</item>
+        <item>All Days, From 07:00AM</item>
+    </string-array>
+    <string-array name="activities_how_much">
+        <item>Couple : ₹8999</item>
+        <item>Adult and Child : ₹415</item>
+        <item>Adult and Child : ₹2000</item>
+        <item>Adult : ₹930, Child : ₹650</item>
+        <item>Adult and Child : ₹299</item>
+        <item>Adult and Child : ₹499</item>
+        <item>Adult and Child : ₹1199</item>
+    </string-array>
+    <string-array name="activities_where">
+        <item>geo:28.237282,77.149235?q=westin</item>
+        <item>geo:28.5014869,76.9669686?q=oysters</item>
+        <item>geo:28.612912,77.227321?q=segway</item>
+        <item>geo:28.340102,77.0080163?q=camp</item>
+        <item>geo:28.5742369,77.3509628?q=gaming</item>
+        <item>geo:28.5033081,77.0953191?q=iskate</item>
+        <item>geo:28.5033036,77.0624882?q=village</item>
+    </string-array>
+
+    <!--Shopping points-->
+    <string-array name="shop_name">
+        <item>Dilli Haat</item>
+        <item>Janpath and Tibetan Market</item>
+        <item>Khan Market</item>
+        <item>Paharganj</item>
+        <item>Chandni Chowk</item>
+        <item>Sarojini Nagar</item>
+        <item>Lajpat Nagar</item>
+    </string-array>
+    <string-array name="shop_details">
+        <item>
+            <b>Location:</b> Opposite INA Market, south Delhi. Pitampura, north Delhi. Janakpuri, west Delhi.\n
+            <b>Opening Hours:</b> Daily from 11 a.m. to 10 p.m., including national holidays.\n
+            <b>What to Buy:</b> Indian handicrafts and artifacts.
+        </item>
+        <item>
+            <b>Location:</b> Janpath, just off Connaught Place, in central New Delhi.\n
+            <b>Opening Hours:</b> Daily.\n
+            <b>What to Buy:</b> Handicrafts, hippy clothing, shoes, paintings, brassware, Indian artifacts, leather work, and cheap jewelry.
+        </item>
+        <item>
+            <b>Location:</b> South New Delhi, not far from India Gate.\n
+            <b>Opening Hours:</b> Daily except Sundays.\n
+            <b>What to Buy:</b> Books, music, branded and tailored clothes, Ayurvedic food and cosmetics, and lamps.
+        </item>
+        <item>
+            &#8226; <b>Location:</b> Paharganj Main Bazaar, opposite the New Delhi Railway Station.\n
+            &#8226; <b>Opening Hours:</b> Daily until around 9 p.m.\n
+            &#8226; <b>What to Buy:</b> Clothes, shoes, jewelry, books, music, textiles, handicrafts, hookah pipes, incense.
+        </item>
+        <item>
+            <b>Location:</b> Old Delhi.\n
+            <b>Opening Hours:</b> Daily except Sundays.\n
+            <b>What to Buy:</b> Fabrics, jewelry, and electronic goods.
+        </item>
+        <item>
+            <b>Location:</b> South West Delhi, near Safdarjung Airport.\n
+            <b>Opening Hours:</b> Daily from 11 a.m. to 10 p.m., including national holidays.\n
+            <b>What to Buy:</b> Indian handicrafts and artifacts.
+        </item>
+        <item>
+            <b>Location:</b> Opposite INA Market, south Delhi. Pitampura, north Delhi. Janakpuri, west Delhi.\n
+            <b>Opening Hours:</b> Daily except Mondays.\n
+            <b>What to Buy:</b> Designer clothes, Indian clothes, fashion accessories, shoes.
+        </item>
+    </string-array>
+
+    <!--Must eat-->
+    <string-array name="eat_name">
+        <item>Chole Bhature</item>
+        <item>Aloo Tikki</item>
+        <item>Papri Chaat</item>
+        <item>Chicken Tikka Rolls</item>
+        <item>Kachori Aloo Sabzi</item>
+        <item>Jalebi</item>
+        <item>Karachi Halwa</item>
+        <item>Chocolate Paan</item>
+        <item>Amritsari kulcha</item>
+        <item>Bittoo tikki wala</item>
+    </string-array>
+
+    <string-array name="eat_where">
+        <item><b>Where:</b> Om Bhature Wala, Karol Bagh</item>
+        <item><b>Where:</b> Natraj Cafe, Chandni Chowk</item>
+        <item><b>Where:</b> Outside UPSC Building, Shahjahan Road</item>
+        <item><b>Where:</b> Khan Chacha, Khan Market</item>
+        <item><b>Where:</b> Nagpal\'s, Amar Colony, Lajpat Nagar</item>
+        <item><b>Where:</b> Old and Famous Jalebiwala, Dariba, Chandni Chowk</item>
+        <item><b>Where:</b> Chaina Ram, next to Fatehpuri Masjid</item>
+        <item><b>Where:</b> Prince Paan, Greater Kailash 1, M 29, M Block Market , Near Hotel South Delhi</item>
+        <item><b>Where:</b> Paschim Vihar</item>
+        <item><b>Where:</b> Ranibagh </item>
+    </string-array>
+</resources>

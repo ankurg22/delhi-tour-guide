@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".actitvity.ActDetailsActivity">
+
+    <data>
+
+        <variable
+            name="activity"
+            type="com.example.android.delhitour.model.Activities" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/toolbar_height">
+
+                <TextView
+                    android:id="@+id/text_activities_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:text="@{activity.name}"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="@dimen/toolbar_text_size" />
+            </android.support.v7.widget.Toolbar>
+        </android.support.design.widget.AppBarLayout>
+
+        <ImageView
+            android:id="@+id/image_list_activities"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/image_act_details_height"
+            android:scaleType="centerCrop"
+            android:src="@{activity.imageId}"
+            android:transitionName="image" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:orientation="vertical"
+                android:padding="@dimen/padding_act_details">
+
+                <TextView
+                    style="@style/DetailTextHeader"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/what" />
+
+                <TextView
+                    style="@style/DetailActivityTextContent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@{activity.what}" />
+
+                <TextView
+                    style="@style/DetailTextHeader"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/when" />
+
+                <TextView
+                    style="@style/DetailActivityTextContent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@{activity.when}" />
+
+                <TextView
+                    style="@style/DetailTextHeader"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/where" />
+
+                <Button
+                    android:id="@+id/button_maps"
+                    style="@style/MapsButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/maps" />
+
+                <TextView
+                    style="@style/DetailTextHeader"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/how_much" />
+
+                <TextView
+                    style="@style/DetailActivityTextContent"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@{activity.howMuch}" />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</layout>
