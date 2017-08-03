@@ -3,7 +3,6 @@
     <color name="colorPrimary">#191B30</color>
     <color name="colorPrimaryDark">#191B30</color>
     <color name="colorAccent">#ffffff</color>
-    <color name="test">#f9a825</color>
     <color name="background">#043D50</color>
 
     <!--Activity item overlay colors-->

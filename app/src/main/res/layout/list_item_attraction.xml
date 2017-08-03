@@ -21,7 +21,6 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/image_list_attraction"
                 android:layout_width="@dimen/attraction_item_image_height"
                 android:layout_height="match_parent"
                 android:scaleType="centerCrop"
@@ -36,7 +35,6 @@
                 android:paddingRight="5dp">
 
                 <TextView
-                    android:id="@+id/text_list_attraction"
                     style="@style/AttractionItemTitle"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
@@ -45,7 +43,6 @@
                     android:transitionName="attraction_text" />
 
                 <TextView
-                    android:id="@+id/textView"
                     style="@style/AttractionItemContent"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
